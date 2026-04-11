@@ -35,11 +35,11 @@ Some of the notable previous techstacks and frameworks i have worked with:
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/anicksenpaii/anicksenpaii/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="100%">
+  <img src="https://raw.githubusercontent.com/anicksenpaii/anicksenpaii/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="48%">
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=anicksenpaii&color=blue&style=flat-square" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=anicksenpaii&color=blue&style=flat-square" alt="Profile Views"/>
 </div>
 
 ---
