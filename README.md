@@ -1,4 +1,6 @@
 <div align="center">
+  <img src="https://github.com/user-attachments/assets/56099243-256b-47f2-b5a3-c645387ce999" alt="Rover Img" width="200" />
+  <br><br>
   <em>| Autonomous Systems Engineer | Robotics and Drone Enthusiast</em>
 </div>
 
