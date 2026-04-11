@@ -4,7 +4,7 @@ on:
   schedule: [{cron: "0 0 * * *"}]
   # Allow manual trigger
   workflow_dispatch:
-  # Run on every push to the master/main branch
+  # Run on every push to the main branch
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -13,15 +13,35 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # 1. Your existing Isometric Calendar
+      - name: Isometric Calendar
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.svg
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: anicksenpaii
-          template: classic
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          config_theme: tokyonight
+
+      # 2. General Stats Card
+      - name: General Stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata
+          config_theme: tokyonight
+
+      # 3. Top Languages Card
+      - name: Top Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 6
+          config_theme: tokyonight

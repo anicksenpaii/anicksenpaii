@@ -25,20 +25,21 @@ Some of the notable previous techstacks and frameworks i have worked with:
 ---
 
 ---
-
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anicksenpaii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&v=1" alt="Abhimanyu's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anicksenpaii&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&v=1" alt="Top Languages" width="48%" />
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=anicksenpaii&color=blue&style=flat-square" alt="Profile Views" />
+  <img src="https://raw.githubusercontent.com/anicksenpaii/anicksenpaii/main/metrics.classic.svg" alt="GitHub Stats" width="48%" />
+  <img src="https://raw.githubusercontent.com/anicksenpaii/anicksenpaii/main/metrics.languages.svg" alt="Top Languages" width="48%" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/anicksenpaii/anicksenpaii/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="50%">
+  <img src="https://raw.githubusercontent.com/anicksenpaii/anicksenpaii/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=anicksenpaii&color=blue&style=flat-square" alt="Profile Views" />
 </div>
 
 ---
